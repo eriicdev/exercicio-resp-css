@@ -104,17 +104,18 @@ header .container{
 
 .lista-produtos li{
     width: 100%;
+    
+    @media (max-width: 768px){
+        width: 85%;
+        margin: 0 auto;
+    }
 }
 
 .lista-produtos li img{
     width: 100%;
     background-color: black;
     margin-top: 24px;
-
-    @media (max-width: 768px){
-        max-width: 350px;
-        margin-left: 100px;
-    }
+    background-color: #fff;
 }
 
 
